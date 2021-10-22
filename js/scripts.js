@@ -12,16 +12,15 @@ $(document).ready(function() {
   
 
     if (final <= 12 && final >= 8) {
-      $("#ruby").show();
+      $("#result").text("ruby")
+      $(".result").show();
     } else if (final <= 7 && final >=4) {
-      $("#c#").show();
+      $("#result").text("c#")
+      $(".result").show();
     } else if (final <= 3 && final >=3) {
-      $("#javaScript").show()
+      $("#result").text("javaScript")
+      $(".result").show();
     }
-    
-
-
-    $("#story").show();
 
     
   });

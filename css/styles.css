@@ -1,18 +1,7 @@
-#story {
+.result {
   display: none;
 }
 
-#ruby {
-  display: block;
-}
-
-#c# {
-  display: block;
-}
-
-#javaScript {
-  display: block;
-}
 
 p {
   color: rgb(230, 30, 230);
