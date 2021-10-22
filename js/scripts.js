@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#survey").sumbit(function(event) {
+  $("#survey").submit(function(event) {
     event.preventDefault();
     const question1 = document.survey.question1.value;
     const question2 = document.survey.question2.value;

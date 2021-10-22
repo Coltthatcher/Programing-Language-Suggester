@@ -2,6 +2,18 @@
   display: none;
 }
 
+#ruby {
+  display: block;
+}
+
+#c# {
+  display: block;
+}
+
+#javaScript {
+  display: block;
+}
+
 p {
   color: rgb(230, 30, 230);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -27,7 +39,7 @@ h2 {
 
 body {
   background-color: rgb(233, 8, 53);
-  
+
 }
 
 .important {

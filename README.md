@@ -10,6 +10,9 @@
 * CSS
 * JavaScript
 * jQuery
+* Visual Studio Code
+* Github
+* Git Terminal
 
 ## Description
 
@@ -20,17 +23,15 @@ This application uses a brief yes or no survey to asses what programing language
 * Clone the repository to your desktop
 * Navigate the directory
 * Open index.html in your desktop
-*
+* If you wish to edit or open in vscode jQuery must be installed
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No known Bugs
 
 ## License
 
 [MIT](https://en.wikipedia.org/wiki/MIT_License)
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) 10/22/21 Colton Thatcher
