@@ -7,13 +7,20 @@ $(document).ready(function() {
   var question5 = document.survey.question5.value;
 
     if (question1 == "yes") {
-      $("ruby").show();
+      $("#ruby").show();
     } else if (question1 == "no") {
-      $("c#").show();
+      $("#c#").show();
     }
 
+    if (question2 == "yes") {
+      $("#javaScript").show();
+    } else if (question2 == "no") {
+      $("#ruby").show();
+  }
 
 
+
+  event.preventDefault();
 });
 
 
