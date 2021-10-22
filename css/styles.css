@@ -1,6 +1,24 @@
-#after_submit {
+#story {
   display: none;
 }
 
+p {
+  color: rgb(230, 30, 230);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: powderblue;
+}
 
+h1 {
+  color: blueviolet;
+  background-color: darkseagreen;
+}
+
+h2 {
+  color: cadetblue;
+  background-color: darkseagreen;
+}
+
+body {
+  background-color: rgb(233, 8, 53);
+}
 
