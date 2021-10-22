@@ -1,22 +1,24 @@
 $(document).ready(function() {
 
-  var question1 = document.survey.question1.value;
-  var question2 = document.survey.question2.value;
-  var question3 = document.survey.question3.value;
-  var question4 = document.survey.question4.value;
-  var question5 = document.survey.question5.value;
+  const question1 = document.survey.question1.value;
+  const question2 = document.survey.question2.value;
+  const question3 = document.survey.question3.value;
+  const question4 = document.survey.question4.value;
+  const question5 = document.survey.question5.value;
 
-    if (question1 == "yes") {
+  let final = (question1 + question2 + question3 + question4 + question5);
+
+  
+
+    if (final <= 12 && final >= 8) {
       $("#ruby").show();
-    } else if (question1 == "no") {
+    } else if (final <= 7 && final >=4) {
       $("#c#").show();
+    } else if (final <= 3 && final >=3) {
+      $("#javaScript").show()
     }
+    
 
-    if (question2 == "yes") {
-      $("#javaScript").show();
-    } else if (question2 == "no") {
-      $("#ruby").show();
-  }
 
 
 
