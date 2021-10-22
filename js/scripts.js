@@ -22,6 +22,7 @@ $(document).ready(function() {
       $(".result").show();
     }
 
+      $(".result").show();
     
   });
 });
