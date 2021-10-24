@@ -1,11 +1,11 @@
 $(document).ready(function() {
   $("#survey").submit(function(event) {
     event.preventDefault();
-    const question1 = parseInt($("select#Q1").val());
-    const question2 = document.survey.question2.value;
-    const question3 = document.survey.question3.value;
-    const question4 = document.survey.question4.value;
-    const question5 = document.survey.question5.value;
+    const question1 = parseInt($("select#question1").val());
+    const question2 = parseInt($("select#question2").val());
+    const question3 = parseInt($("select#question3").val());
+    const question4 = parseInt($("select#question4").val());
+    const question5 = parseInt($("select#question5").val());
 
     let final = (question1 + question2 + question3 + question4 + question5);
 
@@ -17,7 +17,7 @@ $(document).ready(function() {
     } else if (final <= 7 && final >=4) {
       $("#result").text("c#")
       $(".result").show();
-    } else if (final <= 3 && final >=3) {
+    } else {
       $("#result").text("javaScript")
       $(".result").show();
     }

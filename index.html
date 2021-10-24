@@ -14,63 +14,45 @@
   <p>Bellow you can answer a series of questions that will pick the best language for you! ad</p>
 
   <form id = "survey" name="survey">
-    <div class="form-group">
-      <label for="game">Do you enjoy art and creating new things?</label>
-      <select class="custom-select" id="Q1">
+    <div class="Important">
+      <label for="question1">Do you enjoy art and creating new things?</label>
+      <select id="question1">
         <option value="1">Yes</option>
         <option value="2">No</option>
       </select>
     </div>
-
-
-
-  <div class="form-group">
-    <label for="game">Do you enjoy long complex math equations?</label>
-    <select class="custom-select" id="Q1">
-      <option value="1">Yes</option>
-      <option value="2">No</option>
+    <div class="Important">
+      <label for="question2">Do you enjoy long complex math equations?</label>
+      <select id="question2">
+        <option value="1">Yes</option>
+        <option value="2">No</option>
     </select>
-  </div>
-
-    
-  <div class="form-group">
-    <label for="game">Do you enjoy the study of the natural process of things?</label>
-    <select class="custom-select" id="Q1">
-      <option value="1">Yes</option>
-      <option value="2">No</option>
-    </select>
-  </div>
-  <P>Do you enjoy the study of the natural process of things?</P>
-    
-  <div class="form-group">
-    <label for="game">Do you plan on working in the front end of things in programming?</label>
-    <select class="custom-select" id="Q1">
-      <option value="1">Yes</option>
-      <option value="2">No</option>
-    </select>
-  </div>
-  <p>Do you plan on working in the front end of things in programming?</p>
-
-    <div class="important">
-      <input type="radio" id="mc" name = "question4" value = "3"> Yes<br>
-      <input type= "radio" id="mc" name = "question4" value = "1" > No<br>
     </div>
-
-    <div class="important">
-  <p>Do you plan on working in the back end of things in programming?</p>
-      <input type="radio" id="mc" name = "question5" value = "2"> Yes<br>
-      <input type= "radio" id="mc" name = "question5" value = "1" > No<br>
-  </div>
-
-    <input id = "button" type ="button" value = "I'm all done!" click="check();">
-
+    <div class="Important">
+      <label for="question3">Do you enjoy the study of the natural process of things?</label>
+      <select id="question3">
+        <option value="1">Yes</option>
+        <option value="2">No</option>
+    </select>
+    </div>
+    <div class="Important">
+      <label for="question4">Do you plan on working in the front end of things in programming?</label>
+      <select  id="question4">
+        <option value="1">Yes</option>
+        <option value="2">No</option>
+    </select>
+    </div>
+    <div class="Important">
+      <label for="question5">Do you plan on working in the back end of things in programming?</label>
+      <select id="question5">
+        <option value="1">Yes</option>
+        <option value="2">No</option>
+      </select>
+    </div>
+    <button type ="submit">See results</button>
   </form>
-
   <div class="result">
     <p>Your ideal programming language is <span id="result"></span>!</p>
   </div>
-
-  
-
 </body>
 </html>
