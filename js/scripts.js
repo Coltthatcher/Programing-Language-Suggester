@@ -11,10 +11,10 @@ $(document).ready(function() {
 
   
 
-    if (final <= 12 && final >= 8) {
+    if (final <= 10 && final >= 12) {
       $("#result").text("ruby")
       $(".result").show();
-    } else if (final <= 7 && final >=4) {
+    } else if (final <= 10 && final >=8 ) {
       $("#result").text("c#")
       $(".result").show();
     } else {
